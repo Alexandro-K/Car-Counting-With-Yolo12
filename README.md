@@ -9,7 +9,9 @@ This project use Yolo version 12 with medium size to detect vehicles, There are 
 * Python 3.10
 * Windows 10+ / Linux / Mac OS
 * Library python:
-* `pip install -r requirements.txt`
+```
+pip install -r requirements.txt
+```
 
 ### Installing
 * **Clone this Repository**
@@ -26,13 +28,17 @@ source .venv/bin/activate # Linux/Mac
 
 ### Executing Program
 **Run the main program:**
-`python main.py`
+```
+python main.py
+```
 
 ## Help
 **Common problems:**
 * Problem: Can't import ultralytics
-  Run: `pip install ultralytics --upgrade`
-
+  Run: ```
+        pip install ultralytics --upgrade
+      ```
+  
 ## Authors
 **Alexandro Kalindra Enggarrinoputra** [Alexandro-K](https://github.com/Alexandro-K)
 
