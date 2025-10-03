@@ -35,9 +35,10 @@ python main.py
 ## Help
 **Common problems:**
 * Problem: Can't import ultralytics
-  Run: ```
-        pip install ultralytics --upgrade
-      ```
+Run:
+```
+pip install ultralytics --upgrade
+```
   
 ## Authors
 **Alexandro Kalindra Enggarrinoputra** [Alexandro-K](https://github.com/Alexandro-K)
