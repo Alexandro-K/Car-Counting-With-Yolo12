@@ -36,7 +36,7 @@ python main.py
 **Common problems:**
 * Problem: Can't import ultralytics
   
-  Run:
+Run:
 ```
 pip install ultralytics --upgrade
 ```
