@@ -6,31 +6,31 @@ This project use Yolo version 12 with medium size to detect vehicles, There are 
 
 ## Getting Started
 ### Dependencies
-* Python 3.10+
-* Windows 10+/ Linux/ Mac OS
+* Python 3.10
+* Windows 10+ / Linux / Mac OS
 * Library python:
-> `pip install -r requirements.txt`
+* `pip install -r requirements.txt`
 
 ### Installing
-* Clone this Repository
-> `git clone https://github.com/Alexandro-K/Car-Counting-With-Yolo12.git`
-> `cd Car-Counting-With-Yolo12`
-* Create the venv
-> `python -m venv .venv`
-> `.venv\Scripts\activate`   # Windows
-> `source .venv/bin/activate` # Linux/Mac
+* **Clone this Repository**
+* `git clone https://github.com/Alexandro-K/Car-Counting-With-Yolo12.git`
+* `cd Car-Counting-With-Yolo12`
+* **Create the venv**
+* `python -m venv .venv`
+* `.venv\Scripts\activate`   # Windows
+* `source .venv/bin/activate` # Linux/Mac
 
 ### Executing Program
-Run the main program:
-> `python main.py`
+**Run the main program:**
+* `python main.py`
 
 ## Help
-Common problems:
+**Common problems:**
 * Problem: Can't import ultralytics
-> Run: `pip install ultralytics --upgrade`
+* Run: `pip install ultralytics --upgrade`
 
 ## Authors
-Alexandro Kalindra Enggarrinoputra [Alexandro-K](https://github.com/Alexandro-K)
+**Alexandro Kalindra Enggarrinoputra** [Alexandro-K](https://github.com/Alexandro-K)
 
 ## Version History
 * 0.1
@@ -40,5 +40,5 @@ Alexandro Kalindra Enggarrinoputra [Alexandro-K](https://github.com/Alexandro-K)
 -
 
 ## Acknowledments
-Inspirations:
+**Inspirations:**
 * [Object Detection 101 Course](https://youtu.be/WgPbbWmnXJ8?si=1caWK9bWBk37FpEV)
