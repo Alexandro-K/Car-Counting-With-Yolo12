@@ -8,7 +8,13 @@ This project use Yolo version 12 with medium size to detect vehicles, There are 
 https://github.com/user-attachments/assets/b482dfa0-86b1-41e9-81dd-71b9d7a9930d
 
 ## Project Report Example
-[hasil_07-10-2025_13-06-28.csv](https://github.com/user-attachments/files/22735900/hasil_07-10-2025_13-06-28.csv)
+|Waktu           |Total Bagian Kiri|Total Bagian Kanan|Rata-rata Keseluruhan|
+|----------------|-----------------|------------------|---------------------|
+|07-10-2025 13:04|1.0              |3.0               |                     |
+|07-10-2025 13:05|2.0              |3.0               |                     |
+|07-10-2025 13:06|0.0              |4.0               |                     |
+|AVERAGE         |1.0              |3.33              |4.33                 |
+|TOTAL           |3.0              |10.0              |13.0                 |
 
 ## Getting Started
 ### Dependencies
