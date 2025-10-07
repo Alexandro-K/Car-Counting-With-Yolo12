@@ -59,6 +59,9 @@ result_df = [] # df to store the result
 last_minute = datetime.now().minute
 minutes_passed = 0
 
+# This is used to calculate 1 minute passed
+last_record_time = datetime.now()
+
 # Checking if minutes timeframe has passed
 while True and minutes_passed != 3:
     raw_frame = proc.stdout.read(w * h * 3) # Take the raw data and calculate total bytes in 1 frame
@@ -127,7 +130,8 @@ while True and minutes_passed != 3:
     # Taking current time and checking if the minutes has passed
     # If yes, append the data to the dataframe
     now = datetime.now()
-    if now.minute != last_minute:
+    elapsed_time = (now - last_record_time).total_seconds()
+    if elapsed_time >= 60:
         result_df.append({
             "Waktu": now.strftime("%d-%m-%Y %H:%M"),
             "Total Bagian Kiri": len(totalCountLeft),
@@ -137,7 +141,7 @@ while True and minutes_passed != 3:
         totalCountLeft = []
         totalCountRight = []
         minutes_passed += 1
-        last_minute = now.minute
+        last_record_time = now
 
     # This is for number on the top right
     cv2.putText(frame, str(len(totalCountLeft)), (490, 35), cv2.FONT_HERSHEY_PLAIN, 2, (139, 95, 75), 3)
